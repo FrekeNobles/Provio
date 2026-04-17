@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css">
-  <title>Provio - Profile Card</title>
+  <title>Provio</title>
 </head>
 <body>
 
@@ -13,8 +13,8 @@
       
       <figure class="avatar-container">
         <img 
-          src="avatar.jpg" 
-          alt="Profile picture of [Your Name]" 
+          src="mypicture.png" 
+          alt="User's Profile picture" 
           class="avatar"
           data-testid="test-user-avatar"
         />
@@ -24,7 +24,7 @@
         
         <header class="profile-header">
           <h1 class="user-name" data-testid="test-user-name">
-            Your Name
+            Ndifreke Udoh
           </h1>
           
           <p class="user-bio" data-testid="test-user-bio">
@@ -33,23 +33,21 @@
         </header>
 
         <div class="timestamp-section">
-          <span class="timestamp-label">Current time:</span>
+          <p class="timestamp-label">Current time (ms):</p>
+
           <time 
-            class="user-time" 
+            class="user-time"
             data-testid="test-user-time"
             aria-live="polite"
             aria-atomic="true"
-          >
-            <!-- JS will populate this -->
-          </time>
-          <span class="timestamp-unit">ms</span>
+          ></time>
         </div>
 
         <nav aria-label="Social media links">
           <ul class="social-links" data-testid="test-user-social-links">
             <li>
               <a 
-                href="https://twitter.com/yourusername" 
+                href="https://twitter.com/frekenobles" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 data-testid="test-user-social-twitter"
@@ -63,7 +61,7 @@
             </li>
             <li>
               <a 
-                href="https://linkedin.com/in/yourusername" 
+                href="https://linkedin.com/in/ndifreke-udoh-738346263" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 data-testid="test-user-social-linkedin"
