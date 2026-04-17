@@ -59,7 +59,7 @@ Convert into reusable React component
 ## Running Locally
 
 ```bash
-git clone https://github.com/your-username/provio.git
+git clone https://github.com/FrekeNobles/provio.git
 cd provio
 open index.html
 ```
